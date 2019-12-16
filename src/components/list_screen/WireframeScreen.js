@@ -2,15 +2,10 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux';
 import { compose } from 'redux';
-import ControlsList from './ControlsList.js';
 
-import Control from './Control.js';
 import { firestoreConnect } from 'react-redux-firebase';
-import { Stage, Layer, Rect, Text, Circle, Line, Label } from 'react-konva';
 import { getFirestore } from 'redux-firestore';
-import Icon from 'react-materialize/lib/Icon';
 import Button from 'react-materialize/lib/Button';
-import {Rectangle} from 'react-shapes';
 
 
 class WireframeScreen extends Component {
