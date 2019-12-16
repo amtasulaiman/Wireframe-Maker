@@ -197,8 +197,6 @@ updateSelected = (e) =>{
           border: '2px solid black'
         }
      
-       
-     
         if (!wireframe) {
           return <React.Fragment />
         }
@@ -231,13 +229,9 @@ updateSelected = (e) =>{
             <div className="row"><br/>
              <b>Textfield: </b>
               <input id="text" type="text" value="Type" onClick={this.addText} readOnly />
-            </div>
-                
-                
-
+            </div>  
           </div>
 
-            
             <div className="col s6" style={my_borders}>
             <br/>
             <div className="container" style={container_style2}> 
