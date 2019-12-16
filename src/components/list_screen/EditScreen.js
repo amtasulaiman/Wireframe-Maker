@@ -131,7 +131,12 @@ updateSelected = (e) =>{
   // const { target } = e;
   // var control = this.state.isSelected;
   // let id = target.id;
-
+  // control.id = target.value;
+  // this.setState(state => ({
+  //   ...state,
+  //   [target.id]: target.value,
+  // }));
+  // let fireStore = getFirestore();
   //       fireStore.collection('wireframes').doc(this.props.wireframe.id).update({ [target.id]: target.value })
 }
 }
