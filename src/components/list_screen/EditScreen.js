@@ -130,7 +130,7 @@ updateSelected = (e) =>{
   if(this.state.isSelected){
   // const { target } = e;
   // var control = this.state.isSelected;
-
+  // let id = target.id;
   // control.id = target.value;
   // this.setState(state => ({
   //   ...state,
