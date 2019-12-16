@@ -98,7 +98,7 @@ class EditScreen extends Component {
       })
     }
 addText =(e) =>{
-  console.log("IM IN ADD TEXT");
+  console.log("IM IN ADDing Text field");
   const { target } = e;
       this.addControl({
                 "key":this.state.controls?this.state.controls.length : 0,
