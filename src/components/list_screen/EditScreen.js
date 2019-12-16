@@ -131,7 +131,6 @@ changeSelected =(control, e)=>{
 updateSelected = (e) =>{
   if(this.state.isSelected){
   // const { target } = e;
-  // console.log("Target is:", target);
   // var control = this.state.isSelected;
   // let id = target.id;
   // control.id = target.value;
@@ -268,7 +267,7 @@ updateSelected = (e) =>{
             
             </div>
             </div>
-            
+
             <div className="col s3" style={my_borders}>
                 <div className="input-field">
                 <label className="active black-text" htmlFor="name">Name</label>
