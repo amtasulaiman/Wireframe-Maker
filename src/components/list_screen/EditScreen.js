@@ -267,10 +267,7 @@ updateSelected = (e) =>{
             </div>
             
             </div>
-            
-            
             </div>
-            
             
             <div className="col s3" style={my_borders}>
                 <div className="input-field">
