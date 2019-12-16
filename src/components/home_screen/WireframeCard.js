@@ -27,7 +27,7 @@ class WireframeCard extends React.Component {
                 <div className="card-content grey-text text-darken-3">
                     <span className="card-title">{wireframe.name}</span>
                     <div>
-                <i className="material-icons modal-trigger medium right-align waves-red" style={{ display: 'grid', position: 'relative' }}
+                <i className="material-icons modal-trigger small right-align waves-red" style={{ display: 'grid', position: 'relative' }}
                     id="list_trash" href='#modall'>
                   clear
                 </i> 

@@ -10,7 +10,8 @@ class HomeScreen extends Component {
     handleNewWireframe = (e) => {
         const wireframes =this.props.wireframes;
         const {profile} = this.props
-        let newWireframe = { name: "Unknown", owner: profile.email, controls: [], time: Date.now() };
+        let newWireframe = { name: "Unknown", owner: profile.email,
+        height: "", width:"", controls: [], time: Date.now() };
         const fireStore = getFirestore();
         let newKey = fireStore.collection('wireframes').doc();
         newKey.set(newWireframe)
