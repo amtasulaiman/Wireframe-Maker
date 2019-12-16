@@ -33,7 +33,6 @@ class EditScreen extends Component {
         controls:controls
       })
 
-      console.log("controls now are", controls);
     }
     addContainer =(e)=>{
       console.log("Im in Add Container");
