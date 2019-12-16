@@ -78,7 +78,7 @@ class EditScreen extends Component {
     }
 
     addLabel =(e)=>{
-      console.log("ADD LABELLLL");
+      console.log("ADD LABELLLL in process");
       const { target } = e;
       this.addControl({
                 "key":this.state.controls?this.state.controls.length : 0,
