@@ -27,7 +27,6 @@ class EditScreen extends Component {
     } :{};
 
     addControl =(control) => {
-      console.log("Im in ADDControl");
       let controls = this.state.controls;
       controls.push(control);
       this.setState({
