@@ -1,0 +1,127 @@
+{     
+    "wireframes": [
+    {
+        "key": 0,
+        "name": "Courses to Take",
+        "owner": "test2@gmail.com",
+        "height": 100,
+        "width": 100,
+        "controls": [
+            {
+                "key": 0,
+                "type":"button",
+                "c_height": 500,
+                "c_width": 20,
+                "x_pos" :10,
+                "y_pos" :20,
+                "text_field": "Submit",
+                "font_color": "black",
+                "font_size": 40,
+                "border_thickness": 8,
+                "border_radius": 2,
+                "border-color": "black",
+                "background_color":"red"
+
+            },
+            {
+                "key": 1,
+                "type":"label",
+                "c_height": 80,
+                "c_width": 80,
+                "x_pos": 20,
+                "y_pos": 10,
+                "text_field": "Enter course",
+                "font_color": "blue",
+                "font_size": 10,
+                "border_thickness": 8,
+                "border_radius": 2,
+                "border-color": "black",
+                "background_color":"green"
+
+            },
+            {
+                "key": 2,
+                "type":"button",
+                "c_height": 50,
+                "c_width": 50,
+                "x_pos": 12,
+                "y_pos": 20,
+                "text_field": "Submit",
+                "font_color": "red",
+                "font_size": 10,
+                "border_thickness": 8,
+                "border_radius": 2,
+                "border-color": "black",
+                "background_color":"yellow"
+
+            }
+        ]
+    },
+    {
+        "key": 1,
+        "name": "House Appliances",
+        "owner": "test2@gmail.com",
+        "height": 5,
+        "width": 5,
+        "controls": [
+        
+        {
+                "key": 0,
+                "type":"text_field",
+                "c_height": 20,
+                "c_width": 50,
+                "x_pos": 30,
+                "y_pos": 20,
+                "text_field": "Push In",
+                "font_color": "black",
+                "font_size": 10,
+                "border_thickness": 8,
+                "border_radius": 2,
+                "border-color": "black",
+                "background_color":"pink"
+
+            }
+        ]
+}
+, 
+    {
+        "key": 2,
+        "name": "Plants to grow",
+        "owner": "test2@gmail.com",
+        "height": 10,
+        "width": 10,
+        "controls": [
+        {
+            "key": 0,
+            "type":"button",
+            "c_height": 60,
+            "c_width": 90,
+            "x_pos": 20,
+            "y_pos": 30,
+            "text_field": "Seeds",
+            "font_color": "black",
+            "font_size": 10,
+            "border_thickness": 8,
+            "border_radius": 2,         
+            "border-color": "black",
+            "background_color":"red"
+        },
+            
+        {
+            "key": 1,
+            "type":"container",
+            "c_height": 100,
+            "c_width": 70,
+            "x_pos": 10,
+            "y_pos": 40,
+            "text_field": "Garden",
+            "font_color": "grey",
+            "font_size": 12,
+            "border_thickness": 3,
+            "border_radius": 3,
+            "border-color": "black",
+            "background_color":"green"
+            }
+        ]
+    }
+]}
